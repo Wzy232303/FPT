@@ -1,0 +1,1 @@
+python run.py --dataset_name WB --batch_size 8 --device_ids 0 --model_name bert_ftuning --verbalizer soft --lr 1e-5 --k 20 --template_num 3 --prompt_len 20 --times 2--sample_seed 1003 --train_seed 1003 --calibration --do_fewshot 
